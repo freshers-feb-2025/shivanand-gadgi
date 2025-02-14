@@ -1,0 +1,8 @@
+let num = 123.456;
+
+console.log(num.toString());       // "123.456"
+console.log(num.toFixed(2));       // "123.46" (Rounded to 2 decimal places)
+console.log(num.toExponential(2)); // "1.23e+2"
+console.log(num.toPrecision(4));   // "123.5"
+console.log(Number.parseInt("42px"));   // 42
+console.log(Number.parseFloat("3.14abc")); // 3.14
