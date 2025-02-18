@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head><title>Grids</title></head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        grid-gap: 20px;
+        grid-auto-rows: minmax(100px,auto);
+        grid-auto-columns: minmax(50px,auto);
+    }
+    .items{
+        background-color: lightcoral;
+        border: 3px solid green;
+        border-radius: 3px;
+    }
+
+</style>
+<html>
+    <body>
+        <div class="container">
+            <div class="items">Item 1</div>
+            <div class="items">Item 2</div>
+            <div class="items">Item 3</div>  
+            <div class="items">Item 4</div>  
+            <div class="items">Item 5</div>   
+        </div>
+
+    </body>
+</html>
